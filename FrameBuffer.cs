@@ -1,4 +1,5 @@
-﻿using System;
+﻿using snake_test.Libraries;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,6 +43,7 @@ namespace snake_test
             {
                 Tile tile = buffer[i];
                 var pos = tile.GetPos();
+                pos.x *= 2;
 
                 int bufferWidth = Console.BufferWidth;
                 int bufferHeight = Console.BufferHeight;
@@ -55,11 +57,14 @@ namespace snake_test
                     continue;
                 }
 
+
                 Console.SetCursorPosition(pos.x, pos.y);
 
-                Console.ForegroundColor = tile.color;
-                Console.Write(tile.visual);
+                PixelValue pixelValue = new PixelValue(tile.color, ConsoleColor.Black, tile.visual); 
+                FConsole.SetChar((short)pos.x, (short)pos.y, pixelValue);
             }
+
+            FrameBuffer.Clear();
         }
     }
 }

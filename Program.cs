@@ -1,6 +1,8 @@
 ﻿using System.Numerics;
 using System.Runtime.Intrinsics;
 using static System.Net.WebRequestMethods;
+using System.Threading;
+using snake_test.Libraries;
 
 namespace snake_test
 {
@@ -8,6 +10,8 @@ namespace snake_test
     {
         static void Main(string[] args)
         {
+            Libraries.FConsole.Initialize("snake");
+
             Console.CursorVisible = false;
     
             var player = new Player();
@@ -15,11 +19,15 @@ namespace snake_test
 
             while (true)
             {
-                FrameBuffer.Clear();
-                map.Draw();
                 player.Move(Vector2i.RIGHT);
+                
+                map.Draw();
                 player.Draw();
+                
                 FrameBuffer.Draw();
+                FConsole.DrawBuffer();
+
+                Thread.Sleep(100);
             }
         }
     }

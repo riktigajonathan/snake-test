@@ -50,26 +50,25 @@ namespace snake_test
 
             return toReturn;
         }
-
-        public void MoveBody()
+        public void Move(Vector2i dir)
         {
-            for (int i = 0; i < bodies.Count - 1; i++)
+            Body head = bodies[0];
+            Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].size);
+            MoveTail();
+            MoveHead(Vector2i.Add(head.GetPos(), toMove));
+        }
+
+        public void MoveTail()
+        {
+            for (int i = bodies.Count-1; i >= 1; i--)
             {
-                bodies[i].SetPos(bodies[i + 1].GetPos());
+                bodies[i].SetPos(bodies[i - 1].GetPos());
             }
         }
 
         public void MoveHead(Vector2i newPos)
         {
-            bodies[bodies.Count - 1].SetPos(newPos);
-        }
-
-        public void Move(Vector2i dir)
-        {
-            Body head = bodies[bodies.Count - 1];
-            Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].size);
-            MoveBody();
-            MoveHead(Vector2i.Add(head.GetPos(), toMove));
+            bodies[0].SetPos(newPos);
         }
     }
 }

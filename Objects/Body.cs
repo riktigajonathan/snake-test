@@ -25,6 +25,7 @@ namespace snake_test
         {
             return pos;
         }
+
         public void SetPos(Vector2i newPos)
         {
             pos = new Vector2i(newPos.x, newPos.y);

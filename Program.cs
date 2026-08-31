@@ -11,8 +11,6 @@ namespace snake_test
         static void Main(string[] args)
         {
             Libraries.FConsole.Initialize("snake");
-
-            Console.CursorVisible = false;
     
             var player = new Player();
             var map = new Map(24,24);

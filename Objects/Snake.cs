@@ -26,7 +26,7 @@ namespace snake_test
                 {
                     var tilePos = t.GetPos();
                     var bodyPos = b.GetPos();
-                    Tile tile = new Tile(new Vector2i(tilePos.x + bodyPos.x, tilePos.y + bodyPos.y),t.color,t.visual);
+                    Tile tile = new Tile(new Vector2i(tilePos.x + bodyPos.x, tilePos.y + bodyPos.y), t.color, t.visual);
                     FrameBuffer.Add(tile);
                 }
             }
@@ -49,6 +49,27 @@ namespace snake_test
             }
 
             return toReturn;
+        }
+
+        public void MoveBody()
+        {
+            for (int i = 0; i < bodies.Count - 1; i++)
+            {
+                bodies[i].SetPos(bodies[i + 1].GetPos());
+            }
+        }
+
+        public void MoveHead(Vector2i newPos)
+        {
+            bodies[bodies.Count - 1].SetPos(newPos);
+        }
+
+        public void Move(Vector2i dir)
+        {
+            Body head = bodies[bodies.Count - 1];
+            Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].size);
+            MoveBody();
+            MoveHead(Vector2i.Add(head.GetPos(), toMove));
         }
     }
 }

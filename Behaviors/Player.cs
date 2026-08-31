@@ -12,8 +12,17 @@ namespace snake_test
 
         public Player()
         {
-            snake = new Snake(new Vector2i(0, 0));
+            snake = new Snake(new Vector2i(0, 0), 2);
         }
 
+        public void Move(Vector2i dir)
+        {
+            snake.Move(dir);
+        }
+
+        public void Draw()
+        {
+            snake.Draw();
+        }
     }
 }

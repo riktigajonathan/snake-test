@@ -10,14 +10,15 @@ namespace snake_test
         {
             Console.CursorVisible = false;
     
-            var snake = new Snake(new Vector2i(2,0));
+            var player = new Player();
             var map = new Map(24,24);
 
             while (true)
             {
                 FrameBuffer.Clear();
                 map.Draw();
-                snake.Draw();
+                player.Move(Vector2i.RIGHT);
+                player.Draw();
                 FrameBuffer.Draw();
             }
         }

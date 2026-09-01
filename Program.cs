@@ -12,7 +12,7 @@ namespace snake_test
             FConsole.Initialize("snake");
     
             var player = new Player();
-            var map = new Map(24,24);
+            var map = new Map();
 
             while (true)
             {

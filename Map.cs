@@ -9,14 +9,11 @@ namespace snake_test
     internal class Map
     {
         public static List<Tile> tiles = new List<Tile>();
-        public static int width = 0;
-        public static int height = 0;
+        public static int width = Settings.mapWidth;
+        public static int height = Settings.mapHeight;
 
-        public Map(int _width, int _height)
+        public Map()
         {
-            width = _width;
-            height = _height;
-
             for (int i = 0; i < height; i++)
             {
                 for (int j = 0; j < width; j++)

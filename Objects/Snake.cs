@@ -52,6 +52,8 @@ namespace snake_test
         }
         public void Move(Vector2i dir)
         {
+            if (bodies.Count < 1) return;
+
             Body head = bodies[0];
             Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].size);
             MoveTail();
@@ -60,6 +62,8 @@ namespace snake_test
 
         public void MoveTail()
         {
+            if (bodies.Count < 1) return;
+
             for (int i = bodies.Count-1; i >= 1; i--)
             {
                 bodies[i].SetPos(bodies[i - 1].GetPos());

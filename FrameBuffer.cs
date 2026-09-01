@@ -1,5 +1,4 @@
-﻿using snake_test.Libraries;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -65,6 +64,7 @@ namespace snake_test
             }
 
             FrameBuffer.Clear();
+            FConsole.DrawBuffer();
         }
     }
 }

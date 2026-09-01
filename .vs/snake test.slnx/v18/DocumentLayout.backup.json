@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\objects\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:objects\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\source\\repos\\snake test\\objects\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,26 +50,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FastConsole.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Libraries\\FastConsole.cs",
               "RelativeDocumentMoniker": "Libraries\\FastConsole.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Libraries\\FastConsole.cs",
               "RelativeToolTip": "Libraries\\FastConsole.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAtwNAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T14:48:20.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Behaviors\\Player.cs",
               "RelativeDocumentMoniker": "Behaviors\\Player.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Behaviors\\Player.cs",
               "RelativeToolTip": "Behaviors\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T12:30:08.125Z",
               "EditorCaption": ""
@@ -84,18 +84,17 @@
               "RelativeToolTip": "Structs.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwBEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T11:22:55.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T11:22:55.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrameBuffer.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\FrameBuffer.cs",
               "RelativeDocumentMoniker": "FrameBuffer.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\FrameBuffer.cs",
               "RelativeToolTip": "FrameBuffer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIAzwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:27:27.936Z",
               "EditorCaption": ""
@@ -110,18 +109,17 @@
               "RelativeToolTip": "Objects\\Tiles.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T12:26:34.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T12:26:34.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:25:15.74Z",
               "EditorCaption": ""
@@ -136,8 +134,7 @@
               "RelativeToolTip": "Objects\\Body.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAewBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T12:22:47.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T12:22:47.316Z"
             },
             {
               "$type": "Document",
@@ -147,7 +144,7 @@
               "RelativeDocumentMoniker": "Objects\\Snake.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Objects\\Snake.cs",
               "RelativeToolTip": "Objects\\Snake.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:21:39.531Z",
               "EditorCaption": ""
@@ -160,7 +157,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\source\\repos\\snake test\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T12:52:10.385Z",
               "EditorCaption": ""

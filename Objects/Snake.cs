@@ -18,7 +18,7 @@ namespace snake_test
             }
         }
 
-        public void Draw()
+        public void QueueDraw()
         {
             foreach (Body b in bodies)
             {

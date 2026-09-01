@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace snake_test.Libraries;
+namespace snake_test;
 
 public static class FConsole
 {

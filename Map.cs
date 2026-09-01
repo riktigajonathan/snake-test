@@ -27,7 +27,12 @@ namespace snake_test
             }
         }
 
-        public void Draw()
+        public void Update()
+        {
+            QueueDraw();
+        }
+
+        public void QueueDraw()
         {
             foreach (var tile in tiles)
             {

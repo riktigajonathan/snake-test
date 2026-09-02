@@ -16,4 +16,6 @@ public static class Settings
     public static Vector2i startDir = Vector2i.RIGHT;
 
     public static int waitMs = 0;
+    public static char[] livableTiles = { '.' };
+    public static bool gameLoopActive = true;
 }

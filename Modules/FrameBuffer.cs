@@ -59,7 +59,17 @@ internal class FrameBuffer
             FConsole.SetChar((short)pos.x, (short)pos.y, tile.pixelValue);
         }
 
-        FrameBuffer.Clear();
+        //FrameBuffer.Clear();
         FConsole.DrawBuffer();
+    }
+
+    public static Tile? TileAt(Vector2i pos)
+    {
+        foreach (Tile t in buffer)
+        {
+            if (Vector2i.Equals(t.GetPos(), pos)) return t;
+        }
+
+        return null;
     }
 }

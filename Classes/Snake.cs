@@ -61,8 +61,29 @@ class Snake
 
         Body head = bodies[0];
         Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].GetSize());
+        Vector2i newPos = Vector2i.Add(head.GetPos(), toMove);
+
+        if (DeadlyCollision(head, newPos))
+        {
+            GamestateManager.ChangeState("death");
+        }
+
         MoveTail();
-        MoveHead(Vector2i.Add(head.GetPos(), toMove));
+        MoveHead(newPos);
+    }
+
+    bool DeadlyCollision(Body head, Vector2i newPos)
+    {
+        foreach (Tile t in head.GetShape())
+        {
+            Tile? tileAtNewPos = FrameBuffer.TileAt(Vector2i.Add(newPos, t.GetPos()));
+            if (tileAtNewPos == null || !Settings.livableTiles.Contains(tileAtNewPos.pixelValue.character))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void MoveTail()

@@ -1,30 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\",
+  "WorkspaceRootPath": "C:\\Users\\Jonathan\\Downloads\\snake-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\gamestates\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:gamestates\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\gamestates\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:gamestates\\death.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\classes\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:classes\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\gamestates\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:gamestates\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\modules\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\classes\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:classes\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\classes\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:classes\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\jonathan\\downloads\\snake-test\\behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Gamestates\\Game.cs",
-              "RelativeDocumentMoniker": "Gamestates\\Game.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Gamestates\\Game.cs",
-              "RelativeToolTip": "Gamestates\\Game.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA7wBkAAAAAAAAAAAAAAA==",
+              "Title": "GamestateManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\GamestateManager.cs",
+              "RelativeDocumentMoniker": "Modules\\GamestateManager.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\GamestateManager.cs",
+              "RelativeToolTip": "Modules\\GamestateManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:46:34.708Z",
+              "WhenOpened": "2026-09-02T17:55:22.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:54:09.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Death.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Gamestates\\Death.cs",
+              "RelativeDocumentMoniker": "Gamestates\\Death.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Gamestates\\Death.cs",
+              "RelativeToolTip": "Gamestates\\Death.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:53:37.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Map.cs",
+              "RelativeDocumentMoniker": "Classes\\Map.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Map.cs",
+              "RelativeToolTip": "Classes\\Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:41:48.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\Settings.cs",
+              "RelativeDocumentMoniker": "Modules\\Settings.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\Settings.cs",
+              "RelativeToolTip": "Modules\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:27:56.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Structs.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\Structs.cs",
+              "RelativeDocumentMoniker": "Modules\\Structs.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\Structs.cs",
+              "RelativeToolTip": "Modules\\Structs.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA6wB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:27:42.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FrameBuffer.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\FrameBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\FrameBuffer.cs",
               "RelativeDocumentMoniker": "Modules\\FrameBuffer.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\FrameBuffer.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Modules\\FrameBuffer.cs",
               "RelativeToolTip": "Modules\\FrameBuffer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAADAZdtpawwjwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:30:56.499Z",
+              "WhenOpened": "2026-09-02T17:27:27.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tiles.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Tiles.cs",
+              "RelativeDocumentMoniker": "Classes\\Tiles.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Tiles.cs",
+              "RelativeToolTip": "Classes\\Tiles.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T17:25:52.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Structs.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Structs.cs",
-              "RelativeDocumentMoniker": "Modules\\Structs.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Structs.cs",
-              "RelativeToolTip": "Modules\\Structs.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwC4AAAApAAAAAAAAAA==",
+              "Title": "Snake.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Snake.cs",
+              "RelativeDocumentMoniker": "Classes\\Snake.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Classes\\Snake.cs",
+              "RelativeToolTip": "Classes\\Snake.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAnwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:30:53.177Z",
+              "WhenOpened": "2026-09-02T17:12:22.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
-              "RelativeDocumentMoniker": "Modules\\Settings.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
-              "RelativeToolTip": "Modules\\Settings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Behaviors\\Player.cs",
+              "RelativeDocumentMoniker": "Behaviors\\Player.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Behaviors\\Player.cs",
+              "RelativeToolTip": "Behaviors\\Player.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:30:51.626Z",
+              "WhenOpened": "2026-09-02T17:10:00.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GamestateManager.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\GamestateManager.cs",
-              "RelativeDocumentMoniker": "Modules\\GamestateManager.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\GamestateManager.cs",
-              "RelativeToolTip": "Modules\\GamestateManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Gamestates\\Game.cs",
+              "RelativeDocumentMoniker": "Gamestates\\Game.cs",
+              "ToolTip": "C:\\Users\\Jonathan\\Downloads\\snake-test\\Gamestates\\Game.cs",
+              "RelativeToolTip": "Gamestates\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:30:22.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T12:52:10.385Z",
+              "WhenOpened": "2026-09-02T08:46:34.708Z",
               "EditorCaption": ""
             }
           ]

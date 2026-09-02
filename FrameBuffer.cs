@@ -56,8 +56,6 @@ internal class FrameBuffer
                 continue;
             }
 
-
-            Console.SetCursorPosition(pos.x, pos.y);
             FConsole.SetChar((short)pos.x, (short)pos.y, tile.pixelValue);
         }
 

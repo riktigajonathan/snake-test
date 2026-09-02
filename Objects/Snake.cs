@@ -22,7 +22,9 @@ class Snake
     {
         foreach (Body b in bodies)
         {
-            foreach (Tile t in b.shape)
+            Tile[] shape = b.GetShape();
+
+            foreach (Tile t in shape)
             {
                 var tilePos = t.GetPos();
                 var bodyPos = b.GetPos();
@@ -38,7 +40,9 @@ class Snake
 
         foreach (Body b in bodies)
         {
-            foreach (Tile t in b.shape)
+            Tile[] shape = b.GetShape();
+
+            foreach (Tile t in shape)
             {
                 var pos = t.GetPos();
 
@@ -50,12 +54,13 @@ class Snake
 
         return toReturn;
     }
+
     public void Move(Vector2i dir)
     {
         if (bodies.Count < 1) return;
 
         Body head = bodies[0];
-        Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].size);
+        Vector2i toMove = Vector2i.Multiply(dir, bodies[bodies.Count - 1].GetSize());
         MoveTail();
         MoveHead(Vector2i.Add(head.GetPos(), toMove));
     }

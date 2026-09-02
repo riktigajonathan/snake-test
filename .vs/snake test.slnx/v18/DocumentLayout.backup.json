@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:libraries\\fastconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\objects\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:objects\\tiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:behaviors\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,37 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
               "RelativeDocumentMoniker": "Modules\\Settings.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
               "RelativeToolTip": "Modules\\Settings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-01T18:51:09.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FastConsole.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Libraries\\FastConsole.cs",
               "RelativeDocumentMoniker": "Libraries\\FastConsole.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Libraries\\FastConsole.cs",
               "RelativeToolTip": "Libraries\\FastConsole.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAAANIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv64AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T14:48:20.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Behaviors\\Player.cs",
               "RelativeDocumentMoniker": "Behaviors\\Player.cs",
@@ -93,26 +93,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Structs.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Structs.cs",
               "RelativeDocumentMoniker": "Modules\\Structs.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Structs.cs",
               "RelativeToolTip": "Modules\\Structs.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T11:22:55.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "FrameBuffer.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\FrameBuffer.cs",
               "RelativeDocumentMoniker": "FrameBuffer.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\FrameBuffer.cs",
               "RelativeToolTip": "FrameBuffer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:27:27.936Z",
               "EditorCaption": ""
@@ -125,20 +125,20 @@
               "RelativeDocumentMoniker": "Objects\\Tiles.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Objects\\Tiles.cs",
               "RelativeToolTip": "Objects\\Tiles.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:26:34.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Map.cs",
               "RelativeDocumentMoniker": "Map.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Map.cs",
               "RelativeToolTip": "Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:25:15.74Z",
               "EditorCaption": ""
@@ -151,7 +151,7 @@
               "RelativeDocumentMoniker": "Objects\\Body.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Objects\\Body.cs",
               "RelativeToolTip": "Objects\\Body.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA2wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:22:47.316Z",
               "EditorCaption": ""
@@ -164,20 +164,20 @@
               "RelativeDocumentMoniker": "Objects\\Snake.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Objects\\Snake.cs",
               "RelativeToolTip": "Objects\\Snake.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAADgv0EAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:21:39.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T12:52:10.385Z",
               "EditorCaption": ""

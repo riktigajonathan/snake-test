@@ -8,8 +8,6 @@ namespace snake_test;
 
 internal class Tile
 {
-    public const char DEFAULT_CHAR = 'O';
-
     Vector2i pos;
     public PixelValue pixelValue;
 
@@ -18,7 +16,7 @@ internal class Tile
         this.pos = pos;
         if (pixelvalue == null) 
         {
-            pixelvalue = new PixelValue(ConsoleColor.White, ConsoleColor.Black, DEFAULT_CHAR);
+            pixelvalue = new PixelValue(ConsoleColor.White, ConsoleColor.Black, 'O');
         }
         this.pixelValue = (PixelValue)pixelvalue;
     }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:gamestates\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\structs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|solutionrelative:modules\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87206DB8-C2A5-16D0-CFD1-DB9AE9200617}|snake test.csproj|c:\\users\\25te_infomedia\\documents\\github\\snake-test\\modules\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Gamestates\\Game.cs",
               "RelativeDocumentMoniker": "Gamestates\\Game.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Gamestates\\Game.cs",
               "RelativeToolTip": "Gamestates\\Game.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T08:46:34.708Z",
               "EditorCaption": ""
@@ -70,27 +70,27 @@
               "RelativeDocumentMoniker": "Modules\\Structs.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Structs.cs",
               "RelativeToolTip": "Modules\\Structs.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T08:30:53.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
               "RelativeDocumentMoniker": "Modules\\Settings.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\Settings.cs",
               "RelativeToolTip": "Modules\\Settings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T08:30:51.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GamestateManager.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Modules\\GamestateManager.cs",
               "RelativeDocumentMoniker": "Modules\\GamestateManager.cs",
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\25TE_InfoMedia\\Documents\\GitHub\\snake-test\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T12:52:10.385Z",
               "EditorCaption": ""

@@ -40,7 +40,7 @@ public struct Vector2i
     }
 }
 
-public abstract class Gamestate
+public abstract class Gamestate 
 {
     public string StateName { get; }
 

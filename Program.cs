@@ -3,26 +3,25 @@ using System.Runtime.Intrinsics;
 using static System.Net.WebRequestMethods;
 using System.Threading;
 
-namespace snake_test
+namespace snake_test;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        FConsole.Initialize("snake");
+
+        var player = new Player();
+        var map = new Map();
+
+        while (true)
         {
-            FConsole.Initialize("snake");
-    
-            var player = new Player();
-            var map = new Map();
+            map.Update();
+            player.Update();
+            
+            FrameBuffer.Draw();
 
-            while (true)
-            {
-                map.Update();
-                player.Update();
-                
-                FrameBuffer.Draw();
-
-                Thread.Sleep(100);
-            }
+            Thread.Sleep(100);
         }
     }
 }

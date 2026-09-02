@@ -4,37 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace snake_test
+namespace snake_test;
+
+internal class Map
 {
-    internal class Map
+    public static List<Tile> tiles = new List<Tile>();
+    public static int width = Settings.mapWidth;
+    public static int height = Settings.mapHeight;
+
+    public Map()
     {
-        public static List<Tile> tiles = new List<Tile>();
-        public static int width = Settings.mapWidth;
-        public static int height = Settings.mapHeight;
-
-        public Map()
+        for (int i = 0; i < height; i++)
         {
-            for (int i = 0; i < height; i++)
+            for (int j = 0; j < width; j++)
             {
-                for (int j = 0; j < width; j++)
-                {
-                    Tile newTile = new Tile(new Vector2i(j, i), ConsoleColor.Gray, '.');
-                    tiles.Add(newTile);
-                }
+                PixelValue pixelValue = new PixelValue(ConsoleColor.Gray, ConsoleColor.Black, '.');
+                Tile newTile = new Tile(new Vector2i(j, i), pixelValue);
+                tiles.Add(newTile);
             }
         }
+    }
 
-        public void Update()
-        {
-            QueueDraw();
-        }
+    public void Update()
+    {
+        QueueDraw();
+    }
 
-        public void QueueDraw()
+    public void QueueDraw()
+    {
+        foreach (var tile in tiles)
         {
-            foreach (var tile in tiles)
-            {
-                FrameBuffer.Add(tile);
-            }
+            FrameBuffer.Add(tile);
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,4 +38,18 @@ public struct Vector2i
     {
         return left.x == right.x && left.y == right.y;
     }
+}
+
+public abstract class Gamestate
+{
+    public string StateName { get; }
+
+    protected Gamestate(string stateName)
+    {
+        StateName = stateName;
+    }
+
+    public virtual void OnEnter() { }
+    public virtual void OnExit() { }
+    public virtual void Update() { }
 }

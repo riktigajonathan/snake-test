@@ -11,17 +11,13 @@ internal class Program
     {
         FConsole.Initialize("snake");
 
-        var player = new Player();
-        var map = new Map();
+        GamestateManager.AddState(new Game());
+
+        GamestateManager.ChangeState("game");
 
         while (true)
         {
-            map.Update();
-            player.Update();
-            
-            FrameBuffer.Draw();
-
-            Thread.Sleep(100);
+            GamestateManager.Update();
         }
     }
 }

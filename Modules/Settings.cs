@@ -15,7 +15,7 @@ public static class Settings
     public static Vector2i startPos = Vector2i.ZERO;
     public static Vector2i startDir = Vector2i.RIGHT;
 
-    public static int waitMs = 0;
+    public static int waitMs = 100;
     public static char[] livableTiles = { '.' };
     public static bool gameLoopActive = true;
 }

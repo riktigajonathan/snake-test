@@ -4,11 +4,16 @@ public static partial class GamestateManager
 {
     private static readonly List<Gamestate> states = new();
     private static Gamestate? currentState = null;
+    private static string defaultState = "game";
 
     public static void InitStates()
     {
         states.Clear();
-        currentState = null;
+
+        AddState(new Game());
+        AddState(new Death());
+
+        ChangeState(defaultState);
     }
 
     public static void AddState(Gamestate state)
@@ -18,12 +23,13 @@ public static partial class GamestateManager
 
     public static void Update()
     {
-        currentState?.Update();
+        if (currentState == null) return;
+        currentState.Update();
     }
 
-    public static void ChangeState(string stateName)
+    public static void ChangeState(string name)
     {
-        Gamestate? nextState = FindState(stateName);
+        Gamestate? nextState = FindState(name);
         if (nextState == null) return;
 
         currentState?.OnExit();
@@ -31,8 +37,8 @@ public static partial class GamestateManager
         currentState.OnEnter();
     }
 
-    public static Gamestate? FindState(string stateName)
+    public static Gamestate? FindState(string name)
     {
-        return states.FirstOrDefault(s => s.StateName == stateName);
+        return states.FirstOrDefault(s => s.name == name);
     }
 }

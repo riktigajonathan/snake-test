@@ -11,10 +11,7 @@ internal class Program
     {
         FConsole.Initialize("snake");
 
-        GamestateManager.AddState(new Game());
-        GamestateManager.AddState(new Death());
-
-        GamestateManager.ChangeState("game");
+        GamestateManager.InitStates();
 
         while (Settings.gameLoopActive)
         {

@@ -42,11 +42,11 @@ public struct Vector2i
 
 public abstract class Gamestate 
 {
-    public string StateName { get; }
+    public string name { get; }
 
-    protected Gamestate(string stateName)
+    protected Gamestate(string name)
     {
-        StateName = stateName;
+        this.name = name;
     }
 
     public virtual void OnEnter() { }

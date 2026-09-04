@@ -56,7 +56,7 @@ public static class FConsole
         Console.Title = title;
         Maximize();
         Console.CursorVisible = false;
-
+        
         GetOutputHandle();
 
         width = (short)(Console.WindowWidth);

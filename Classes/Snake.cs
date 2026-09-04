@@ -9,6 +9,8 @@ namespace snake_test;
 class Snake
 {
     List<Body> bodies;
+    List<BodyEffect> bodyEffects;
+
     public Snake(Vector2i pos, int length = 1)
     {
         bodies = new List<Body>();
@@ -16,6 +18,18 @@ class Snake
         {
             bodies.Add(new Body(pos));
         }
+    }
+
+    public void Update()
+    {
+        if (bodyEffects != null)
+        {
+            foreach (BodyEffect effect in bodyEffects)
+            {
+                effect.action.Invoke(bodies);
+            }
+        }
+        QueueDraw();
     }
 
     public void QueueDraw()

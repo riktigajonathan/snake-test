@@ -10,7 +10,6 @@ internal class Program
     static void Main(string[] args)
     {
         FConsole.Initialize("snake");
-
         GamestateManager.InitStates();
 
         while (Settings.gameLoopActive)

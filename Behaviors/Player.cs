@@ -27,7 +27,7 @@ internal class Player
     {
         InputCheck();
         Move();
-        snake.QueueDraw();
+        snake.Update();
     }
 
     public void InputCheck()

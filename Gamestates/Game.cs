@@ -27,6 +27,5 @@ public class Game : Gamestate
         FrameBuffer.Draw();
 
         Thread.Sleep(Settings.waitMs);
-        GamestateManager.Update();
     }
 }

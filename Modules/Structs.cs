@@ -34,6 +34,11 @@ public struct Vector2i
         return new Vector2i(left.x * right.x, left.y * right.y);
     }
 
+    public static Vector2i Divide(Vector2i left, Vector2i right)
+    {
+        return new Vector2i((int)((float)left.x / (float)right.x), (int)((float)left.y / (float)right.y));
+    }
+
     public static bool Equals(Vector2i left, Vector2i right)
     {
         return left.x == right.x && left.y == right.y;

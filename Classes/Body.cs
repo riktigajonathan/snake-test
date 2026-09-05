@@ -11,7 +11,7 @@ internal class Body
     Vector2i pos;
     Vector2i size;
 
-    Tile[] shape = [
+    List<Tile> shape = [
         new Tile(new Vector2i(0,0)), new Tile(new Vector2i(1, 0)), new Tile(new Vector2i(2, 0)),
         new Tile(new Vector2i(0,1)), new Tile(new Vector2i(1, 1)), new Tile(new Vector2i(2, 1)),
         new Tile(new Vector2i(0,2)), new Tile(new Vector2i(1, 2)), new Tile(new Vector2i(2, 2)),
@@ -25,7 +25,7 @@ internal class Body
 
     Vector2i CalculateSize()
     {
-        if (shape.Length == 0) return new Vector2i(0, 0);
+        if (shape.Count == 0) return new Vector2i(0, 0);
 
         int minX = int.MaxValue, maxX = int.MinValue;
         int minY = int.MaxValue, maxY = int.MinValue;
@@ -58,12 +58,12 @@ internal class Body
         return size;
     }
 
-    public Tile[] GetShape()
+    public List<Tile> GetShape()
     {
         return shape;
     }
 
-    public void SetShape(Tile[] newShape)
+    public void SetShape(List<Tile> newShape)
     {
         shape = newShape;
         size = CalculateSize();

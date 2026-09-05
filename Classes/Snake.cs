@@ -36,7 +36,7 @@ class Snake
     {
         foreach (Body b in bodies)
         {
-            Tile[] shape = b.GetShape();
+            List<Tile> shape = b.GetShape();
 
             foreach (Tile t in shape)
             {
@@ -54,7 +54,7 @@ class Snake
 
         foreach (Body b in bodies)
         {
-            Tile[] shape = b.GetShape();
+            List<Tile> shape = b.GetShape();
 
             foreach (Tile t in shape)
             {

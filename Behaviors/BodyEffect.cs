@@ -8,12 +8,18 @@ namespace snake_test;
 
 internal class BodyEffect
 {
-    public string effectName;
     public Action<List<Body>> action;
 
-    public BodyEffect(string effectName, Action<List<Body>> action) 
+    public BodyEffect(Action<List<Body>> action) 
     {
-        this.effectName = effectName;
         this.action = action;
     }
+
+    public static Action<List<Body>> continuity = (bodies) =>
+    {
+        foreach (var body in bodies)
+        {
+
+        }
+    };
 }

@@ -9,7 +9,7 @@ namespace snake_test;
 class Snake
 {
     List<Body> bodies;
-    List<BodyEffect> bodyEffects;
+    List<BodyEffect> bodyEffects = new List<BodyEffect>();
 
     public Snake(Vector2i pos, int length = 1)
     {
@@ -113,5 +113,11 @@ class Snake
     public void MoveHead(Vector2i newPos)
     {
         bodies[0].SetPos(newPos);
+    }
+
+    public void AddEffect(Action<List<Body>> action)
+    {
+        BodyEffect bodyEffect = new BodyEffect(action);
+        bodyEffects.Add(bodyEffect);
     }
 }

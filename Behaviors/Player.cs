@@ -21,6 +21,8 @@ internal class Player
         keybinds.Add(ConsoleKey.DownArrow, () => dir = Vector2i.Equals(dir, Vector2i.UP) ? dir : Vector2i.DOWN);
         keybinds.Add(ConsoleKey.RightArrow, () => dir = Vector2i.Equals(dir, Vector2i.LEFT) ? dir : Vector2i.RIGHT);
         keybinds.Add(ConsoleKey.LeftArrow, () => dir = Vector2i.Equals(dir, Vector2i.RIGHT) ? dir : Vector2i.LEFT);
+
+        snake.AddEffect(BodyEffect.continuity);
     }
 
     public void Update()

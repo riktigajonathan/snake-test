@@ -29,6 +29,11 @@ public struct Vector2i
         return new Vector2i(left.x + right.x, left.y + right.y);
     }
 
+    public static Vector2i Sub(Vector2i left, Vector2i right)
+    {
+        return new Vector2i(left.x - right.x, left.y - right.y);
+    }
+
     public static Vector2i Multiply(Vector2i left, Vector2i right)
     {
         return new Vector2i(left.x * right.x, left.y * right.y);
@@ -42,6 +47,16 @@ public struct Vector2i
     public static bool Equals(Vector2i left, Vector2i right)
     {
         return left.x == right.x && left.y == right.y;
+    }
+
+    public static Vector2i Invert(Vector2i vec)
+    {
+        return new Vector2i(vec.x * -1, vec.y * -1);
+    }
+
+    public static Vector2i Sign(Vector2i vec)
+    {
+        return new Vector2i(Math.Sign(vec.x), Math.Sign(vec.y));
     }
 }
 

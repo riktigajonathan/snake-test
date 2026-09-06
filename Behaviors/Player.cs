@@ -16,7 +16,7 @@ internal class Player
     public Player()
     {
         snake = new Snake(Settings.startPos, Settings.startLength);
-
+  
         keybinds.Add(ConsoleKey.UpArrow, () => dir = Vector2i.Equals(dir, Vector2i.DOWN) ? dir : Vector2i.UP);
         keybinds.Add(ConsoleKey.DownArrow, () => dir = Vector2i.Equals(dir, Vector2i.UP) ? dir : Vector2i.DOWN);
         keybinds.Add(ConsoleKey.RightArrow, () => dir = Vector2i.Equals(dir, Vector2i.LEFT) ? dir : Vector2i.RIGHT);

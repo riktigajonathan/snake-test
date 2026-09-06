@@ -10,6 +10,7 @@ internal class Body
 {
     Vector2i pos;
     Vector2i size;
+    public Snake parent;
 
     List<Tile> shape = [
         new Tile(new Vector2i(0,0)), new Tile(new Vector2i(1, 0)), new Tile(new Vector2i(2, 0)),

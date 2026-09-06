@@ -10,13 +10,16 @@ class Snake
 {
     List<Body> bodies;
     List<BodyEffect> bodyEffects = new List<BodyEffect>();
+    public Vector2i lastDir = Settings.startDir;
 
     public Snake(Vector2i pos, int length = 1)
     {
         bodies = new List<Body>();
         for (int i = 0; i < length; i++)
         {
-            bodies.Add(new Body(pos));
+            var body = new Body(pos);
+            body.parent = this;
+            bodies.Add(body);
         }
     }
 
@@ -71,6 +74,8 @@ class Snake
 
     public void Move(Vector2i dir)
     {
+        lastDir = dir;
+
         if (bodies.Count < 1) return;
 
         Body head = bodies[0];

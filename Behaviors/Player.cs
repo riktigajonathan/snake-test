@@ -23,6 +23,7 @@ internal class Player
         keybinds.Add(ConsoleKey.LeftArrow, () => dir = Vector2i.Equals(dir, Vector2i.RIGHT) ? dir : Vector2i.LEFT);
 
         snake.AddEffect(BodyEffect.continuity);
+        snake.AddEffect(BodyEffect.headify);
     }
 
     public void Update()

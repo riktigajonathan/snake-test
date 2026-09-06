@@ -12,9 +12,6 @@ public class Death : Gamestate
 
     public override void OnEnter()
     {
-        Console.Clear();
-        Console.WriteLine("ya diedd");
-        Console.WriteLine(FrameBuffer.buffer.Count);
         Settings.gameLoopActive = false;
     }
 }

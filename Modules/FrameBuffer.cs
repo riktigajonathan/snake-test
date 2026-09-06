@@ -42,7 +42,8 @@ internal class FrameBuffer
         {
             Tile tile = buffer[i];
             var pos = tile.GetPos();
-            pos.x *= 2;
+            int xScale = 2;
+            pos.x *= xScale;
 
             int bufferWidth = Console.BufferWidth;
             int bufferHeight = Console.BufferHeight;
@@ -51,7 +52,9 @@ internal class FrameBuffer
                 return;
 
             if (pos.x < 0 || pos.x >= bufferWidth ||
-                pos.y < 0 || pos.y >= bufferHeight)
+                pos.y < 0 || pos.y >= bufferHeight ||
+                pos.x+1 > Settings.mapWidth * xScale || 
+                pos.y+1 > Settings.mapHeight)
             {
                 continue;
             }
@@ -59,7 +62,6 @@ internal class FrameBuffer
             FConsole.SetChar((short)pos.x, (short)pos.y, tile.pixelValue);
         }
 
-        //FrameBuffer.Clear();
         FConsole.DrawBuffer();
     }
 

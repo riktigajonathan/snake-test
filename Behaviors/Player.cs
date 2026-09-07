@@ -13,9 +13,9 @@ internal class Player
     Vector2i dir = Settings.startDir;
     Dictionary<ConsoleKey, Action> keybinds = new();
 
-    public Player()
+    public Player(Vector2i startPos)
     {
-        snake = new Snake(Settings.startPos, Settings.startLength);
+        snake = new Snake(startPos, Settings.startLength);
   
         keybinds.Add(ConsoleKey.UpArrow, () => dir = Vector2i.Equals(dir, Vector2i.DOWN) ? dir : Vector2i.UP);
         keybinds.Add(ConsoleKey.DownArrow, () => dir = Vector2i.Equals(dir, Vector2i.UP) ? dir : Vector2i.DOWN);

@@ -10,19 +10,22 @@ public class Game : Gamestate
 {
     public Game() : base("game") { }
 
-    Player player;
+    List<Player> players = new();
     Map map;
 
     public override void OnEnter()
     {
-        player = new();
+        players.Add(new(Settings.startPos));
         map = new();
     }
 
     public override void Update()
     {
         map.Update();
-        player.Update();
+        foreach (Player player in players)
+        {
+            player.Update();
+        }
 
         FrameBuffer.Draw();
 

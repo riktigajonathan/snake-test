@@ -212,4 +212,29 @@ internal class BodyEffect
             tile.pixelValue = tongueValue;
         }
     };
+
+    public static Action<List<Body>> solidify = (bodies) =>
+    {
+        foreach (Body body in bodies)
+        {
+            List<Tile> shape = body.GetShape();
+            foreach (Tile t in shape)
+            {
+                t.pixelValue = new PixelValue(ConsoleColor.Black, ConsoleColor.Green, '@');
+            }
+        }
+    }; 
+
+    public static Action<List<Body>> drugged = (bodies) =>
+    {
+        Random rand = new Random();
+        foreach (Body body in bodies)
+        {
+            List<Tile> shape = body.GetShape();
+            foreach (Tile t in shape)
+            {
+                t.pixelValue = new PixelValue((ConsoleColor)rand.Next(0, 16), ConsoleColor.Black, t.pixelValue.character);
+            }
+        }
+    };
 }
